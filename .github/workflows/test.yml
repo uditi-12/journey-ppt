@@ -34,7 +34,7 @@
 #         run: |
 #           echo Add other actions to build,
 #           echo test, and deploy your project.
-name: learn-github-actions
+name: journey-ppt
 on: [push]
 jobs:
   check-bats-version:
