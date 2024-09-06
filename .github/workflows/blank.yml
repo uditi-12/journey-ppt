@@ -20,11 +20,11 @@ jobs:
 
       - name: Push a File
         run: |
-          echo "This is a new file." > newfile.txt
+          echo "This is a new file." > python.py
           git config --global user.name "uditi-12"
           git config --global user.email "uditigupta12@gmail.com"
           git add newfile.txt
-          git commit -m "Add newfile.txt"
+          git commit -m "Add python.py"
           git push origin main
 
   pull_file:
@@ -38,7 +38,7 @@ jobs:
           git fetch origin main
           git checkout main
           git pull origin main
-          cat newfile.txt  
+          cat python.py 
 
   manual_dispatch:
     runs-on: ubuntu-latest
