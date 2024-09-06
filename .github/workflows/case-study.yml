@@ -43,7 +43,7 @@ jobs:
           echo "# Sample Python code modification" > python.py
           git config --global user.name "uditi-12"
           git config --global user.email "uditigupta12@gmail.com"
-          git add src/main.py
+          git add python.py
           git commit -m "Modify Python code"
           git push origin main
 
