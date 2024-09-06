@@ -40,7 +40,7 @@ jobs:
 
       - name: Modify Code
         run: |
-          echo "# Sample Python code modification" >> src/python.py
+          echo "# Sample Python code modification" > python.py
           git config --global user.name "uditi-12"
           git config --global user.email "uditigupta12@gmail.com"
           git add src/main.py
